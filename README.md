@@ -4,13 +4,11 @@ I code it in python with pygame.
 - - - -
 ## How to run
 Run the file '*main.py*' and you should be able to play the game.
+Do not forget to have *pygame* module install.
+You can install with the command `pip install pygame`.
+Check this documentation for more : https://www.pygame.org/wiki/GettingStarted
 
 ## Versions
-Things to add/change:
-  - [ ] Fix bug when user change quickly for the opposite side
-  - [ ] Add sounds 
-  - [ ] Adjust the game
-  
 - version 1.0 : (10/11/2020)
   - Game is working pretty well. No sounds, no assets, no fonts, just the basic game 
 
