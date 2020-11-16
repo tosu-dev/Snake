@@ -1,8 +1,8 @@
-# COLOR
+# COLORS
 black = (0, 0, 0)
 white = (255, 255, 255)
-green = (0, 255, 0)
-light_green = (0, 150, 0)
+light_green = (0, 255, 0)
+green = (0, 200, 0)
 red = (255, 0, 0)
 
 # WINDOW
@@ -13,7 +13,14 @@ screen_title = 'Snake Game'
 nb_cases = 20 # number of cases in a line (also in a column)
 case_width = int(screen_size / nb_cases)  # width (also height) of a board case
 line_width = 1
-cases_rect = ()  # top-left corner
+
+# FONTS
+font = 'Arial'
+# SCORE
+score_size = 20
+
+# LOSE
+lose_size = 56
 
 # CLOCK
 ticks = 12  # number of ticks per second
